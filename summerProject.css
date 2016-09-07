@@ -1,19 +1,11 @@
 
 .containerLeft{
-/*    position:relative;*/
     max-width: 68%;
     margin:auto;
 }
 
-
-
-.right{
-    float: left;
-    color:white;
-    border: 10px solid white;
-    margin-left: 5%;
     
-}
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -81,11 +73,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
-
-
-.active, .dot:hover {
-  background-color: #717171;
+  
 }
 
 .number {
@@ -96,6 +84,10 @@
     display: inline-block;
     font-size: 7px;
     
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }
 
 /* Fading animation */
@@ -132,4 +124,13 @@
 .real{
     color:white;
 }
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
 
